@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getUserLastSide = exports.getUserFlips = exports.getTotalFlips = exports.getLeaderboard = exports.createFlipCall = exports.callReadOnly = exports.DEFAULT_CONFIG = exports.CoinFlipClient = void 0;
+var client_1 = require("./client");
+Object.defineProperty(exports, "CoinFlipClient", { enumerable: true, get: function () { return client_1.CoinFlipClient; } });
+Object.defineProperty(exports, "DEFAULT_CONFIG", { enumerable: true, get: function () { return client_1.DEFAULT_CONFIG; } });
+Object.defineProperty(exports, "callReadOnly", { enumerable: true, get: function () { return client_1.callReadOnly; } });
+Object.defineProperty(exports, "createFlipCall", { enumerable: true, get: function () { return client_1.createFlipCall; } });
+Object.defineProperty(exports, "getLeaderboard", { enumerable: true, get: function () { return client_1.getLeaderboard; } });
+Object.defineProperty(exports, "getTotalFlips", { enumerable: true, get: function () { return client_1.getTotalFlips; } });
+Object.defineProperty(exports, "getUserFlips", { enumerable: true, get: function () { return client_1.getUserFlips; } });
+Object.defineProperty(exports, "getUserLastSide", { enumerable: true, get: function () { return client_1.getUserLastSide; } });

@@ -1,0 +1,33 @@
+{
+  "name": "coin-flip",
+  "version": "1.0.0",
+  "private": true,
+  "description": "On-chain coin flip game on the Stacks blockchain",
+  "main": "sdk/dist/index.js",
+  "types": "sdk/dist/index.d.ts",
+  "scripts": {
+    "build:sdk": "npm --prefix sdk run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "deploy": "node deploy.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brventonbeshers-ship-it/coin-flip"
+  },
+  "keywords": [
+    "stacks",
+    "blockchain",
+    "coin-flip",
+    "clarity",
+    "smart-contract",
+    "sdk",
+    "web3",
+    "typescript"
+  ],
+  "author": "brventonbeshers-ship-it",
+  "license": "MIT",
+  "dependencies": {
+    "@stacks/network": "^7.3.1",
+    "@stacks/transactions": "^7.4.0"
+  }
+}
