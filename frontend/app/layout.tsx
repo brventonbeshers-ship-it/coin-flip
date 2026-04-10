@@ -24,6 +24,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <meta
+          name="talentapp:project_verification"
+          content="339522e4ad326f99317b38126a4fa2fb098f599bbb8f11f58c75c469eb4cc46afa008d5b172140beae3ad6452d40a6cbab558b4f8ed1af068d141952e938fed1"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}
       >
