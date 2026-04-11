@@ -21,3 +21,9 @@ const tx = createFlipCall();
 ## License
 
 MIT
+## Core Methods
+
+- `getTotalFlips()`
+- `getUserFlips(address)`
+- `getUserLastSide(address)`
+- `createFlipCall()`
