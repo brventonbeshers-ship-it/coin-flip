@@ -24,3 +24,9 @@ $env:STACKS_PRIVATE_KEY='...'
 node deploy.mjs
 Remove-Item Env:STACKS_PRIVATE_KEY
 ```
+## Dev Notes
+
+- Frontend runs from `frontend/`
+- App-local SDK lives in `sdk/`
+- Mainnet deploy uses `ClarityVersion.Clarity2`
+<!-- rep-readme-note: 1775871890664 -->
