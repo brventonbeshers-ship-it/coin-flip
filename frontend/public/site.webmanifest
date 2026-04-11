@@ -1,0 +1,8 @@
+{
+  "name": "Coin Flip",
+  "short_name": "CoinFlip",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#091417",
+  "theme_color": "#79f2c0"
+}
