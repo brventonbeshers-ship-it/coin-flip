@@ -5,3 +5,4 @@ export function toCoinSide(value: number) {
 export function sideAccent(value: number) {
   return value === 2 ? "text-[#d8fff3]" : "text-[#79f2c0]";
 }
+// rep-coin-lib: 1775871667093
