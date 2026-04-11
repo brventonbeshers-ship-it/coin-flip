@@ -27,3 +27,4 @@ MIT
 - `getUserFlips(address)`
 - `getUserLastSide(address)`
 - `createFlipCall()`
+<!-- rep-sdk-readme: 1775871787274 -->
