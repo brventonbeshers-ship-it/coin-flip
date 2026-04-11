@@ -28,3 +28,4 @@ export interface FlipCall {
   postConditions: [];
   network: StacksNetwork;
 }
+// rep-sdk-types: 1775871730535
