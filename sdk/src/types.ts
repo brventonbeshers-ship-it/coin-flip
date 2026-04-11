@@ -29,3 +29,4 @@ export interface FlipCall {
   network: StacksNetwork;
 }
 // rep-sdk-types: 1775871730535
+// rep-sdk-types: 1775920680628
