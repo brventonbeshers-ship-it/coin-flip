@@ -1,3 +1,5 @@
+![npm](https://img.shields.io/npm/v/coin-flip-sdk?color=blueviolet) ![Stacks Mainnet](https://img.shields.io/badge/Stacks-Mainnet-blueviolet) ![license](https://img.shields.io/badge/license-MIT-blue)
+
 # Coin Flip
 
 On-chain heads-or-tails game built on Stacks.
