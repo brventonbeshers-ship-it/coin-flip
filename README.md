@@ -32,3 +32,9 @@ Remove-Item Env:STACKS_PRIVATE_KEY
 - App-local SDK lives in `sdk/`
 - Mainnet deploy uses `ClarityVersion.Clarity2`
 <!-- rep-readme-note: 1775871890664 -->
+## Dev Notes
+
+- Frontend runs from `frontend/`
+- App-local SDK lives in `sdk/`
+- Mainnet deploy uses `ClarityVersion.Clarity2`
+<!-- rep-readme-note: 1775920827314 -->
