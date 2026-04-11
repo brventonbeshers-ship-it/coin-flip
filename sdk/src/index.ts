@@ -22,3 +22,4 @@ export type TotalFlipsResult = Awaited<
   ReturnType<CoinFlipClient["getTotalFlips"]>
 >;
 // rep-sdk-index: 1775871633101
+// rep-sdk-index: 1775920806386
