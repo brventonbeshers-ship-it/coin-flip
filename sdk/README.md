@@ -35,3 +35,9 @@ MIT
 - `getUserFlips(address)`
 - `getUserLastSide(address)`
 - `createFlipCall()`
+## Core Methods
+
+- `getTotalFlips()`
+- `getUserFlips(address)`
+- `getUserLastSide(address)`
+- `createFlipCall()`
