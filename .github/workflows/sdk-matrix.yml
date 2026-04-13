@@ -9,7 +9,6 @@ jobs:
   matrix-install:
     name: Install check (Node ${{ matrix.node }})
     runs-on: ubuntu-latest
-    continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
@@ -19,34 +18,28 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-        continue-on-error: true
 
       - name: Prepare workspace
         run: |
           mkdir -p ${{ runner.temp }}/sdk-verify
           cd ${{ runner.temp }}/sdk-verify
           npm init -y
-        continue-on-error: true
 
       - name: Install coin-flip-sdk package
         working-directory: ${{ runner.temp }}/sdk-verify
         run: npm install coin-flip-sdk
-        continue-on-error: true
 
       - name: Test require coin-flip-sdk
         working-directory: ${{ runner.temp }}/sdk-verify
         run: node -e "const sdk = require('coin-flip-sdk'); console.log('coin-flip-sdk loaded on Node ${{ matrix.node }}');"
-        continue-on-error: true
 
       - name: Show package info
         working-directory: ${{ runner.temp }}/sdk-verify
         run: npm ls coin-flip-sdk
-        continue-on-error: true
 
   cross-platform:
     name: Platform test (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
-    continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
@@ -56,7 +49,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-        continue-on-error: true
 
       - name: Install and verify coin-flip-sdk
         run: |
@@ -65,13 +57,11 @@ jobs:
           npm init -y
           npm install coin-flip-sdk
           node -e "require('coin-flip-sdk'); console.log('coin-flip-sdk works on ${{ matrix.os }}');"
-        continue-on-error: true
         shell: bash
 
   stress-test:
     name: Stress iteration ${{ matrix.iteration }}
     runs-on: ubuntu-latest
-    continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
@@ -81,7 +71,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-        continue-on-error: true
 
       - name: Install coin-flip-sdk in isolation
         run: |
@@ -90,4 +79,3 @@ jobs:
           npm init -y
           npm install coin-flip-sdk
           node -e "require('coin-flip-sdk'); console.log('Iteration ${{ matrix.iteration }}: pass');"
-        continue-on-error: true
