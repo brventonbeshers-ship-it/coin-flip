@@ -57,3 +57,9 @@ MIT
 - `createFlipCall()`
 <!-- rep-sdk-readme: 1776063425558 -->
 <!-- rep-sdk-readme: 1776084432795 -->
+## Core Methods
+
+- `getTotalFlips()`
+- `getUserFlips(address)`
+- `getUserLastSide(address)`
+- `createFlipCall()`
