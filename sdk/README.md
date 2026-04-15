@@ -86,3 +86,4 @@ MIT
 - `getUserLastSide(address)`
 - `createFlipCall()`
 <!-- rep-sdk-readme: 1776215605995 -->
+<!-- rep-sdk-readme: 1776247995739 -->
