@@ -53,3 +53,4 @@ export function CoinDisplay({ side, size = "sm" }: CoinDisplayProps) {
 // rep-coin-display: 1776620013412
 // rep-coin-display: 1776673043254
 // rep-coin-display: 1776680012085
+// rep-coin-display: 1776701989129
