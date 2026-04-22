@@ -63,3 +63,4 @@ export interface FlipCall {
 // rep-sdk-types: 1776818220127
 // rep-sdk-types: 1776834938596
 // rep-sdk-types: 1776863877977
+// rep-sdk-types: 1776877041523
