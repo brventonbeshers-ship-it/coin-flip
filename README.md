@@ -252,3 +252,4 @@ Remove-Item Env:STACKS_PRIVATE_KEY
 - App-local SDK lives in `sdk/`
 - Mainnet deploy uses `ClarityVersion.Clarity2`
 <!-- rep-readme-note: 1777025677365 -->
+<!-- rep-readme-note: 1777037843693 -->
