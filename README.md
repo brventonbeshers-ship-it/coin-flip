@@ -278,3 +278,8 @@ Remove-Item Env:STACKS_PRIVATE_KEY
 <!-- rep-readme-note: 1777120115111 -->
 <!-- rep-readme-note: 1777169725108 -->
 <!-- rep-readme-note: 1777194849324 -->
+## Dev Notes
+
+- Frontend runs from `frontend/`
+- App-local SDK lives in `sdk/`
+- Mainnet deploy uses `ClarityVersion.Clarity2`
