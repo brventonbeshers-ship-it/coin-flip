@@ -277,3 +277,4 @@ Remove-Item Env:STACKS_PRIVATE_KEY
 - Mainnet deploy uses `ClarityVersion.Clarity2`
 <!-- rep-readme-note: 1777120115111 -->
 <!-- rep-readme-note: 1777169725108 -->
+<!-- rep-readme-note: 1777194849324 -->
